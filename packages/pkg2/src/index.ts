@@ -5,7 +5,9 @@ import { snakeCase } from 'change-case';
 export function fn4() {
     p1.fn();
     /**
-     * FIXME: IntelliJ will not suggest an auto-import
+     * TODO: IntelliJ will not suggest an auto-import
+     * this is not related to learnajs
+     * https://stackoverflow.com/questions/61410187/why-does-auto-import-of-some-packages-not-work
      */
     return snakeCase('abc');
 }
