@@ -1,3 +1,11 @@
+# tmtron
+
+I think this will not work well with ng serve.  
+e.g. we need to run the tsc build so that the type-defs exists which are then
+used in the other packages.  
+But ng serve does not build those files on disk (for better performance, it
+does everything in memory)
+
 # Lerna + Project References
 
 This is a "bare minimum" repo that shows one way to configure TypeScript Project References with lerna. There are a lot of different ways you can set things up and this isn't intended to be authoratitive guidance or exclusionary of other ways that might work better in your project.
